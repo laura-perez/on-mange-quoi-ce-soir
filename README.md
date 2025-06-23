@@ -5,6 +5,7 @@
 ## Objectif
 
 Permettre à chacun·e de mieux manger sans y penser :
+
 - Création d'un profil nutrition (objectif, budget, goûts, niveau de cuisine…)
 - Génération de recettes adaptées via l'API ChatGPT
 - Sélection des plats désirés (avec possibilité d'alternatives)
@@ -51,6 +52,7 @@ src/
 ## Configuration
 
 1. Créer un fichier `.env.local` :
+
 ```bash
 NEXT_PUBLIC_SUPABASE_URL=your_supabase_url
 NEXT_PUBLIC_SUPABASE_ANON_KEY=your_supabase_anon_key
@@ -62,6 +64,7 @@ OPENAI_API_KEY=your_openai_api_key
 ## Instructions pour Copilot 🤖
 
 Copilot doit suivre les intentions de cette application centrée utilisateur :
+
 - Proposer du code lisible, clair, documenté
 - Optimiser la logique métier
 - Respecter la structure des composants React + Tailwind
