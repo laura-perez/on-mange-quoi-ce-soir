@@ -7,7 +7,7 @@ export interface UserProfile {
   weight_kg: number;
   physical_activity: 'sedentaire' | 'moderee' | 'reguliere' | 'intense' | 'autre';
   diet_preferences: string[]; // vegan, sans lactose, etc.
-  disliked_foods: string[]; // ex : champignons, tofu
+  disliked_foods: string[] | string; // ex : champignons, tofu (peut être une string pendant la saisie)
   cooking_level: 'debutant' | 'a_laise' | 'experimente' | 'passionne';
   cooking_time: string; // ex : "<30min", "dimanche", etc.
   household_size: 'solo' | 'couple' | 'famille' | 'variable';
