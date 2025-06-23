@@ -69,3 +69,6 @@ Copilot doit suivre les intentions de cette application centrée utilisateur :
 - Optimiser la logique métier
 - Respecter la structure des composants React + Tailwind
 - Proposer des noms de fonction cohérents avec le domaine
+
+Ce projet utilise un fichier `copilot-instructions.md` pour guider GitHub Copilot dans la génération de code.  
+→ Merci de le lire et de le maintenir à jour pour garantir la cohérence et la qualité du code généré.

@@ -7,6 +7,7 @@
 // export { Modal } from './ui/Modal'
 
 // Layout Components
+export { Layout } from './layout/Layout'
 // export { Header } from './layout/Header'
 // export { Footer } from './layout/Footer'
 // export { Sidebar } from './layout/Sidebar'
